@@ -10,6 +10,7 @@
 
 </head>
 <body>
+    <iframe src="bg-audio.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
     <audio autoplay="true" loop="true">
         <source src="audio/bg-audio2.mp3" type="audio/mp3">
     </audio>
@@ -121,14 +122,6 @@
     <script>
         AOS.init();
     </script>
-    <script type="text/javascript">
-function autoplay(){
-    var r =confirm("Putar musik dalam undangan ini?");
-    if (r == true) {
-        document.getElementById("audio").play();
-    }
-  }
-</script>
-<script>autoplay();</script> 
+
 </body>
 </html>
